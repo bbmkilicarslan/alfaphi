@@ -1,4 +1,4 @@
-def main():
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-if __name__ == "__main__":
-  main()
+print("Your name is {} and you are {} years old.".format(name, age))
